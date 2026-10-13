@@ -23,6 +23,8 @@ The administration experience supports the work behind the storefront: maintaini
 
 The platform is designed for one store owner to work with multiple administrators. Team access and permissions allow operational duties to be shared while keeping critical store, payment, and security controls restricted to authorized roles. Store settings, media assets, discounts, and operational reporting sit alongside the day-to-day catalog and fulfillment work.
 
+The product is intentionally a single-store platform rather than a multi-vendor marketplace. That lets the customer catalog, inventory, checkout, and fulfillment processes follow one store's policies while supporting delegated work by staff.
+
 ## Storefront visual
 
 <p align="center">

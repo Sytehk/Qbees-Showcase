@@ -1,32 +1,43 @@
 # Qbees
 
-**A curated fashion storefront and commerce platform**
+**A curated fashion storefront with a complete commerce workflow**
 
-Qbees is a single-store fashion commerce experience designed for customers and the team that runs the store. The customer journey covers product discovery through order follow-up, while staff tools support catalog and store operations.
+Qbees is a single-store fashion commerce project built around two connected experiences: a polished storefront for shoppers and an operations workspace for the team running the store.
 
-## Customer experience
+The customer experience is designed to make product discovery clear and editorial. The store can present curated collections alongside searchable catalog pages, detailed product pages, and a checkout journey that carries a selected product and variant through to an order.
 
-- Browse editorial collections and the product catalog.
+## Shopping journey
+
+- Browse collections and the full product catalog.
 - Search, filter, and sort products.
-- Review product details and choose available variants such as size or colour.
-- Save items, manage a cart, and complete checkout.
-- Review orders, delivery progress, account details, and eligible return requests.
-- Contact the store through customer support conversations.
+- Review product descriptions, imagery, and available variants such as size or colour.
+- Save products for later and maintain a shopping cart.
+- Check out, review order details, and follow delivery progress.
+- Request a return when eligible or contact the store through a support conversation.
 
 ## Store operations
 
-Authorized staff can manage products, variants, categories, collections, inventory, orders, returns, discounts, storefront content, and customer messages. The platform also includes separate administration for team access and store-level settings.
+The administration experience supports the work behind the storefront: maintaining products and variants, organizing collections and categories, tracking inventory, processing orders, reviewing returns, responding to customer messages, and updating store content.
 
-## Engineering scope
+The platform is designed for one store owner to work with multiple administrators. Team access and permissions allow operational duties to be shared while keeping critical store, payment, and security controls restricted to authorized roles.
 
-The storefront and administration experience use Next.js and TypeScript. Supabase and PostgreSQL support application data and account workflows, and Stripe is used for payment integration.
+## Storefront visual
+
+<p align="center">
+  <img src="assets/storefront-editorial.jpg" width="720" alt="Editorial fashion image used by the Qbees storefront">
+</p>
+<p align="center"><sub>Storefront image asset from the project. This is product imagery, not a UI screenshot.</sub></p>
+
+## Engineering
+
+The storefront and administration tools use Next.js and TypeScript. Supabase and PostgreSQL support accounts and application data; Stripe is used for payment integration. The product also includes workflow and launch-readiness checks for the customer journey and store operations.
 
 ## Technology
 
-Next.js, TypeScript, Supabase, PostgreSQL, and Stripe.
+Next.js, TypeScript, Supabase, PostgreSQL, Stripe, and browser workflow tests.
 
-## About this repository
+## This repository
 
-This is a public project summary only. It contains no private source code, customer or order data, credentials, or internal operating details.
+This is a public project overview with one storefront image asset. It does not include private source code, customer or order data, credentials, or internal operating configuration.
 
 [Explore AceNetics](https://acenetics.dev)
